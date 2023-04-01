@@ -7,7 +7,6 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      <Header />
       
       <Routes>
         <Route path="/" element={<Header />} />
