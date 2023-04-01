@@ -1,6 +1,6 @@
 #home {
     position: relative;
-    background: url("../../assets/bgWhite.png");
+    background: url("../../assets/bgIMG.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
@@ -12,6 +12,7 @@
         display: none;
       }
     }
+    
   }
   
   .app__header {
@@ -62,6 +63,7 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+
 
     .badge-cmp,
     .tag-cmp {
