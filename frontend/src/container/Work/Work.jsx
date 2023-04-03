@@ -12,49 +12,49 @@ const Work = () => {
   const works = [
     { 
       title: 'Restaurant Website',
-      description: 'This is a sample project for testing purposes.',      
+      description: 'A restaurant website : Figma file to Code',      
       imgUrl: images.work1,      
-      tags: ['React JS'],
+      tags: ['React JS', 'All'],
       projectLink: 'https://sriz-kitchen.netlify.app',
       codeLink: 'https://github.com/example/sample-project-1',
     },
     {
       title: 'React Admin Dashboard',
-      description: 'This is another sample project for testing purposes.',
+      description: 'A fully responsive admin dashboard',
       imgUrl: images.work3,
-      tags: ['React JS'],
+      tags: ['React JS', 'All' ],
       projectLink: 'https://react-admin-dashboard-2023.netlify.app',
       codeLink: 'https://github.com/example/sample-project-2',
     },
     {
       title: 'Portfolio Website',
-      description: 'This is another sample project for testing purposes.',
+      description: 'My portfolio website.optimized for mobile, tablet, laptops',
       imgUrl: images.work2,
-      tags: ['React JS'],
+      tags: ['React JS', 'All'],
       projectLink: 'https://My-Portfolio-Sriram-VS.netlify.app',
       codeLink: 'https://github.com/example/sample-project-2',
     },
     {
       title: 'Passenger Counter App',
-      description: 'This is another sample project for testing purposes.',
+      description: 'Counter app that counts passsengers in each subway',
       imgUrl: images.work4,
-      tags: ['JavaScript'],
+      tags: ['JavaScript', 'All'],
       projectLink: undefined,
       codeLink: 'https://github.com/sriram267/counter-app',
     },
     {
       title: 'BlackJack Game',
-      description: 'This is another sample project for testing purposes.',
+      description: 'An online blackjack game',
       imgUrl: images.work5,
-      tags: ['JavaScript'],
+      tags: ['JavaScript', 'All'],
       projectLink: undefined,
       codeLink: 'https://github.com/sriram267/black-jack-game',
     },
     {
       title: 'Lead Tracker',
-      description: 'This is another sample project for testing purposes.',
+      description: 'A google extension works like a bookmark saver',
       imgUrl: images.work6,
-      tags: ['JavaScript'],
+      tags: ['JavaScript', 'All'],
       projectLink: undefined,
       codeLink: 'https://github.com/sriram267/lead-tracker',
     },
@@ -78,7 +78,7 @@ const Work = () => {
   useState(() => setFilterWork(works));
   return (
     <div className="app__works">
-      <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
+      <h2 className="head-text">My <span>Project</span> Section</h2>
 
       <div className="app__work-filter">
         {['React JS', 'JavaScript', 'All'].map((item, index) => (

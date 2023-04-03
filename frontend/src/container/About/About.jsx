@@ -10,7 +10,7 @@ const abouts = [
 ]
 const About = () => {
   return (
-    <div className="app__about">
+    <div className="app__about app__whitebg">
       <h2 className="head-text">Designing My success,<span> One Pixel</span><br />at a time,<span> with precision and creativity.</span></h2>
 
       <div className="app__profiles">
