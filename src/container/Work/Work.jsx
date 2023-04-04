@@ -77,7 +77,7 @@ const Work = () => {
 
   useState(() => setFilterWork(works));
   return (
-    <div className="app__works">
+    <div className="app__works app__whitebg">
       <h2 className="head-text">My <span>Project</span> Section</h2>
 
       <div className="app__work-filter">
