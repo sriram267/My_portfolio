@@ -4,8 +4,8 @@ import { images } from "../../constants"
 import "./About.scss";
 
 const abouts = [
-  { title: "React developer", description: "Turning ideas into intuitive experiences through code", imgUrl: images.about01 },
-  { title: "Web designer", description: "Crafting digital experiences through creative web design", imgUrl: images.about02 },
+  { title: "Frontend Developer", description: "Turning ideas into intuitive experiences through code", imgUrl: images.about01 },
+  { title: "React developer", description: "Crafting digital experiences through creative web design", imgUrl: images.about02 },
   { title: "Ui/Ux designer", description: "Bridging the gap between users and technology through design", imgUrl: images.about04 }
 ]
 const About = () => {
