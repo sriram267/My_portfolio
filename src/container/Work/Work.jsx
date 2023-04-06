@@ -16,7 +16,7 @@ const Work = () => {
       imgUrl: images.work1,      
       tags: ['React JS', 'All'],
       projectLink: 'https://sriz-kitchen.netlify.app',
-      codeLink: 'https://github.com/example/sample-project-1',
+      codeLink: 'https://github.com/sriram267/Sriz-Kitchen',
     },
     {
       title: 'React Admin Dashboard',
@@ -24,7 +24,7 @@ const Work = () => {
       imgUrl: images.work3,
       tags: ['React JS', 'All' ],
       projectLink: 'https://react-admin-dashboard-2023.netlify.app',
-      codeLink: 'https://github.com/example/sample-project-2',
+      codeLink: 'https://github.com/sriram267/react-admin-dashboard',
     },
     {
       title: 'Portfolio Website',
