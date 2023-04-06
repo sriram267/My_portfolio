@@ -183,7 +183,7 @@
     position: relative;  
     
     img {
-      width: 380px;
+      width: 480px;
       object-fit: contain;
       z-index: 1;
       
@@ -191,9 +191,9 @@
 
     @media (min-resolution: 120dpi) and (max-resolution: 144dpi) {
         .profile__pic {
-          margin-right: 100px;
+          margin-right: 65px;
           position: fixed;
-          bottom: 60px;
+          bottom: 70px;
         }
     }
     @media only screen and (min-resolution: 96dpi) and (max-resolution: 96dpi) {
@@ -221,7 +221,7 @@
       }
     }
 
-    @media screen and (min-width: 800px)and (max-width:1000px){
+    @media screen and (min-width: 700px)and (max-width:1000px){
       .profile__pic {
         position: absolute;
         z-index: 1; 
