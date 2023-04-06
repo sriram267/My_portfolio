@@ -3,6 +3,7 @@ import { images } from "../../constants"
 import { Link } from "react-router-dom"
 import { HiMenuAlt4, HiX } from "react-icons/hi"
 import { motion } from "framer-motion"
+import "./SRIRAM.pdf"
 import "./Navbar.scss"
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -17,7 +18,7 @@ const Navbar = () => {
             <li className="app__flex p-text"><Link to="/skills">SKILLS</Link></li>
             <li className="app__flex p-text"><Link to="/work">WORK</Link></li>
             <li className="app__flex p-text"><Link to="/footer">CONTACT</Link></li>
-            <div><li className="app__flex p-text"><a href="./resume.pdf" download>Download Resume</a></li></div>
+            <div><li className="app__flex p-text"><a href= "./SRIRAM.pdf" download>Download Resume</a></li></div>
         </ul>
         <div className="app__navbar-menu">
           <HiMenuAlt4 onClick={() => setToggle(true)} />
