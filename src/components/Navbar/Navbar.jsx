@@ -3,7 +3,6 @@ import { images } from "../../constants"
 import { Link } from "react-router-dom"
 import { HiMenuAlt4, HiX } from "react-icons/hi"
 import { motion } from "framer-motion"
-import  "../../assets/resume.pdf"
 import "./Navbar.scss"
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
