@@ -5,7 +5,7 @@ import { images } from "../../constants"
 const Footer = () => {
   return (
     <div className="app__footer">
-      <h1 className="head-text">"Let's Connect!" - A Gateway to New Opportunities and Collaborations</h1>
+      <h1 className="head-text"><span>"Let's Connect!"</span> - A Gateway to New Opportunities and Collaborations</h1>
       
       <div className="app__footer-cards">
         <div className="app__footer-card-style">

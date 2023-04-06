@@ -10,6 +10,7 @@
     border: 1px solid rgba(187, 179, 179, 0.18);
     position: fixed;
     z-index: 2;
+    height: 70px;
 }
 
 .app__navbar-logo {
@@ -18,8 +19,8 @@
     align-items: center;
 
     img {
-        width: 120px;
-        height: 30px;
+        width: 150px;
+        height: 70px;
 
         @media screen and (min-width: 2000px) {
             width: 120px;
