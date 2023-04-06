@@ -65,6 +65,10 @@
     align-items: flex-end;
     flex-direction: column;
 
+    @media screen and (min-width: 1900px){
+      margin-top: 20rem;
+  }
+
 
     .badge-cmp,
     .tag-cmp {
@@ -208,7 +212,10 @@
 
     @media screen and (min-width: 1900px){
         .profile__pic {
-            margin-right: 180px;
+          position: relative;
+          left: 43rem;
+          bottom: 70px;
+          width: 650px;
         }
     }
     @media screen and (max-width: 600px){
