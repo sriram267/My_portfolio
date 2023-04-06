@@ -31,7 +31,7 @@ const Work = () => {
       description: 'My portfolio website.optimized for mobile, tablet, laptops',
       imgUrl: images.work2,
       tags: ['React JS', 'All'],
-      projectLink: 'https://My-Portfolio-Sriram-VS.netlify.app',
+      projectLink: 'https://my-portfolio-sriram-vs.netlify.app',
       codeLink: 'https://github.com/example/sample-project-2',
     },
     {
