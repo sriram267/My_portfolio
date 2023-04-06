@@ -32,7 +32,7 @@ const Work = () => {
       imgUrl: images.work2,
       tags: ['React JS', 'All'],
       projectLink: 'https://my-portfolio-sriram-vs.netlify.app',
-      codeLink: 'https://github.com/example/sample-project-2',
+      codeLink: 'https://github.com/sriram267/My_portfolio',
     },
     {
       title: 'Passenger Counter App',
