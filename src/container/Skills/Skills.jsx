@@ -12,7 +12,7 @@ const mySkills = [
     { id: "5", title: "JavaScript", img: images.javascript },
     { id: "6", title: "React",      img: images.react },
     { id: "7", title: "Material UI",img: images.mu5 },
-    
+    { id: "8", title: "Python",     img: images.python },
   ]
 
   return (
