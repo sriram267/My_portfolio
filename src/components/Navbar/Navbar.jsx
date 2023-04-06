@@ -17,6 +17,7 @@ const Navbar = () => {
             <li className="app__flex p-text"><Link to="/skills">SKILLS</Link></li>
             <li className="app__flex p-text"><Link to="/work">WORK</Link></li>
             <li className="app__flex p-text"><Link to="/footer">CONTACT</Link></li>
+            <div><li className="app__flex p-text"><a href="./resume.pdf" download>Download Resume</a></li></div>
         </ul>
         <div className="app__navbar-menu">
           <HiMenuAlt4 onClick={() => setToggle(true)} />
