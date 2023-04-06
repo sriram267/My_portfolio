@@ -5,13 +5,13 @@ import { images } from "../../constants";
 
 const Skills = () => {
 const mySkills = [
-    { id: "1", title: "Figma",      img: images.figma, bgColor: "" },
-    { id: "2", title: "Html",       img: images.html, bgColor: "" },
-    { id: "3", title: "CSS",        img: images.css, bgColor: "" },
+    { id: "1", title: "Figma",      img: images.figma },
+    { id: "2", title: "Html",       img: images.html },
+    { id: "3", title: "CSS",        img: images.css },
     { id: "4", title: "Sass",       img: images.sass },
-    { id: "5", title: "JavaScript", img: images.javascript, bgColor: "" },
-    { id: "6", title: "React",      img: images.react, bgColor: "" },
-    { id: "7", title: "Material UI",img: images.mu5, bgColor: "" },
+    { id: "5", title: "JavaScript", img: images.javascript },
+    { id: "6", title: "React",      img: images.react },
+    { id: "7", title: "Material UI",img: images.mu5 },
     
   ]
 
@@ -27,7 +27,7 @@ const mySkills = [
               className="app__skills-item app__flex"
               key={skill.id}
             >
-              <div className="app__flex" style={{ backgroundColor: skill.bgColor}}>
+              <div className="app__flex" >
                 <img src={skill.img} alt="" />
               </div>
               <p className="p-text">{skill.title}</p>

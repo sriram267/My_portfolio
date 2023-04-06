@@ -2,7 +2,7 @@
     position: relative;
     background: url("../../assets/bgIMG.png");
     background-size: cover;
-    background-position: center;
+    background-position: auto;
     background-repeat: repeat;
   
     .app__wrapper {
@@ -38,6 +38,7 @@
     @media screen and (max-width: 450px) {
       padding: 6rem 1rem 2rem;
     }
+
     
   }
   
@@ -192,15 +193,15 @@
         .profile__pic {
           margin-right: 100px;
           position: fixed;
-          top:20px
+          bottom: 60px;
         }
     }
     @media only screen and (min-resolution: 96dpi) and (max-resolution: 96dpi) {
         .profile__pic {
-          position: fixed;
+          position: relative;
           margin-left: auto;
           bottom: 60px;
-          left: 38rem;
+          left: 55rem;
           width: 650px;
         }
     }
@@ -210,6 +211,26 @@
             margin-right: 180px;
         }
     }
+    @media screen and (max-width: 600px){
+      .profile__pic {
+        position: absolute;
+        z-index: 1; 
+        width: 280px;
+        left: 40px;
+        bottom: 20px;
+      }
+    }
+
+    @media screen and (min-width: 800px)and (max-width:1000px){
+      .profile__pic {
+        position: absolute;
+        z-index: 1; 
+        width: 450px;
+        left: 15px;
+        bottom: 45px;
+      }
+    }
+
 
  
     .overlay_circle {
