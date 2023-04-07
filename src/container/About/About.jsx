@@ -4,9 +4,9 @@ import { images } from "../../constants"
 import "./About.scss";
 
 const abouts = [
-  { title: "Frontend Developer", description: "Skilled in creating intuitive and visually appealing user interfaces ", imgUrl: images.about01 },
-  { title: "React developer", description: "building dynamic web applications using front-end technologies to develop responsive and efficient user interfaces.", imgUrl: images.about02 },
-  { title: "Ui/Ux designer", description: "Bridging the gap between users and technology through design", imgUrl: images.about04 }
+  { title: "Class-X (2017)",    Marks: "Marks: 92%", description: "ST.ANN'S.MAT.HR.SEC.SCHOOL", imgUrl: images.about01 },
+  { title: "Class-X (2019)",    Marks: "Marks: 71%", description: "ST.ANN'S.MAT.HR.SEC.SCHOOL", imgUrl: images.about02 },
+  { title: "B.E | CSE (2023)",  Marks: "CGPA: 8.40", description: "PANIMALAR ENGINEERING COLLEGE", imgUrl: images.about04 }
 ]
 const About = () => {
   return (
@@ -24,6 +24,8 @@ const About = () => {
           >
             <img src={about.imgUrl}  alt=""/>
             <h2 className="bold-text" style={{ mt: 20}}>{about.title}</h2>
+            <p className="bold-text" style={{ mb: 10}}>{about.Marks}</p>
+            <br />
             <p className="p-text" style={{ mt: 10}}>{about.description}</p>
 
           </motion.div>
